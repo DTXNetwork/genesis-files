@@ -1,0 +1,44 @@
+{
+    "name": "DTX-TESTNET",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f858f85494bf8ace52578a25597632e63ae45eb98539ca2fd4941740e52065127ef6d16c12c04dc0058c0378b6229459a075153430dad7806ba25d058a3697690fa15c9430e7f01c0994b78f61eb0c9eb9c20cd2d19040b880c0",
+        "gasLimit": "0x1dcd650000000",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0xe00D5c852Ff8CC6b19660B75D12d98CDd6446588": {
+                "balance": "0x115eec47f6cf7e35000000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "params": {
+        "forks": {
+            "homestead": 0,
+            "byzantium": 0,
+            "constantinople": 0,
+            "petersburg": 0,
+            "istanbul": 0,
+            "EIP150": 0,
+            "EIP158": 0,
+            "EIP155": 0
+        },
+        "chainID": 909091,
+        "engine": {
+            "ibft": {
+                "epochSize": 2000,
+                "type": "PoA",
+                "validator_type": "ecdsa"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "bootnodes": [
+        "/ip4/85.190.246.50/tcp/10001/p2p/16Uiu2HAkwEWod8HZCqQ2k83xxsHkcBPQS7nNj5r4evXYkRHhB12C"
+    ]
+}
