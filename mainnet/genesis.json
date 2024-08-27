@@ -1,0 +1,48 @@
+{
+    "name": "DTX-MAINNET",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x66cc13a6",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f858f854945542e2b8dcc7b808a6174392bcfe48d5592f09b294114729f1556398f24c773af2b17dec02fdf9544e9419ab25ac4c1335945a017462ad04e047028a824f94529f6f8fad77625e1cb3b04f50f3bf6ea751b39480c0",
+        "gasLimit": "0xba43b7400",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0x46f25F668461C9D657bf4b7d642b1FeEf57f6Bcd": {
+                "balance": "0x115eec47f6cf7e35000000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "params": {
+        "forks": {
+            "homestead": 0,
+            "byzantium": 0,
+            "constantinople": 0,
+            "petersburg": 0,
+            "istanbul": 0,
+            "EIP150": 0,
+            "EIP158": 0,
+            "EIP155": 0
+        },
+        "chainID": 909090,
+        "engine": {
+            "ibft": {
+                "epochSize": 20000,
+                "type": "PoA",
+                "validator_type": "ecdsa"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "bootnodes": [
+        "/ip4/85.190.246.251/tcp/10001/p2p/16Uiu2HAmHLxHomaaN2aTmtaMw34a8nwom1HJ7SAPdQ4ZhDvyCgkF",
+        "/ip4/85.190.246.196/tcp/10002/p2p/16Uiu2HAkvzBivcRziGzz7WNaNoN32jGt7a4w2s7NqyaCLL1c84MQ",
+        "/ip4/85.190.246.134/tcp/10003/p2p/16Uiu2HAmAmMKzDxYsPyJzVapkbStu2WhPyH4JKwJbUsHn7M5uacZ",
+        "/ip4/85.190.246.134/tcp/10004/p2p/16Uiu2HAmBdniX5Gvv5Z5MBM9HPypDzL2T29pNd8yq6oU9SMCo4Uk",
+        "/ip4/109.123.252.167/tcp/10005/p2p/16Uiu2HAkyC574Uy6V6D5dhhHSH5VFC8s2gH6PzDBpgHzNianAgBU"
+    ]
+}
